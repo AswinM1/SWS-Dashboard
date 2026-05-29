@@ -3,13 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Fileupload from './components/Fileupload'
 
 function App() {
 
 
   return (
    
-      <div></div>
+      <div>
+        <Fileupload></Fileupload>
+      </div>
   )
 }
 
